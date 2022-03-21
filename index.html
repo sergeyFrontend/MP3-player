@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MP3 player</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <div class="wrapper">
+   <div class="player">
+      <div class="title">Now Playing</div>
+      <div class="cover"><img class="cover__img" src="./img/cover1.svg" alt="LogoCover"></div>
+      <div class="song">Жмурки</div>
+      <audio class="audio" src="./songs/GFY.mp3"></audio>
+      <div class="progress_container">
+        <div class="progress"></div>
+      </div>
+      <div class="buttons">
+        <div class="btn prev"><img src="./img/left.svg" alt="btn"></div>
+        <div class="btn play"><img class="img__src" src="./img/play.svg" alt="btn"></div>
+        <div class="btn next"><img src="./img/right.svg" alt="btn"></div>
+      </div>
+   </div>
+ </div>
+
+<script src="./app.js"></script>
+</body>
+</html>
